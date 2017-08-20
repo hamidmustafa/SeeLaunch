@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="smarter.com.example.makingsmartphonesmarter.ListView_VibrationMode">
+<item android:id="@+id/id_changetheme1" android:title="Theme Polo"
+    android:orderInCategory="100" android:showAsAction="always" />
+    <item android:id="@+id/id_changetheme2" android:title="Theme Doger"
+        android:orderInCategory="100" android:showAsAction="always" />
+    <item android:id="@+id/id_changetheme3" android:title="Theme Hungry"
+        android:orderInCategory="100" android:showAsAction="always" />
+    <item android:id="@+id/id_changethemereset" android:title="Default Theme"
+        android:orderInCategory="100" android:showAsAction="always" />
+
+
+</menu>

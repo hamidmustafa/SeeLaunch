@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="seelaunch.seelaunch.MainActivity_Seelaunch"
+    android:background="#F5F5DC"
+    android:id="@+id/txt_speech">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Your Choice"
+        android:id="@+id/textView"
+        android:autoText="false"
+        android:textSize="25dp"
+        android:typeface="sans"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btn_textspeeching"
+        android:textAllCaps="false"
+
+        android:background="@drawable/text_speeching"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_above="@+id/btn_quickcall"
+        android:layout_alignLeft="@+id/btn_lnassistance"
+        android:layout_alignStart="@+id/btn_lnassistance" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Browse Online"
+        android:id="@+id/browse_online"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:layout_alignRight="@+id/btn_browse"
+        android:layout_alignEnd="@+id/btn_browse"
+        android:layout_below="@+id/btn_browse"
+        android:layout_alignLeft="@+id/btn_browse"
+        android:layout_alignStart="@+id/btn_browse"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  SMS Assistance"
+        android:id="@+id/sms_assistance"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:layout_below="@+id/btn_quickcall"
+        android:layout_alignLeft="@+id/btn_lnassistance"
+        android:layout_alignStart="@+id/btn_lnassistance"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Call Assistance"
+        android:id="@+id/call_assitance"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:layout_alignRight="@+id/btn_quickcall"
+        android:layout_alignEnd="@+id/btn_quickcall"
+        android:layout_below="@+id/btn_quickcall"
+        android:layout_alignLeft="@+id/btn_quickcall"
+        android:layout_alignStart="@+id/btn_quickcall"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Text Speeching"
+        android:id="@+id/txtview_speech"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:layout_below="@+id/btn_textspeeching"
+        android:layout_alignLeft="@+id/btn_textspeeching"
+        android:layout_alignStart="@+id/btn_textspeeching"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btn_browse"
+        android:background="@drawable/browse_online"
+        android:textAllCaps="false"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_marginTop="54dp"
+        android:layout_marginRight="-30dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btn_lnassistance"
+        android:textAllCaps="false"
+        android:background="@drawable/sms_assistance"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_alignTop="@+id/btn_quickcall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btn_quickcall"
+        android:textAllCaps="false"
+        android:background="@drawable/call_assistance"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_marginTop="83dp"
+        android:layout_below="@+id/btn_browse"
+        android:layout_alignLeft="@+id/btn_browse"
+        android:layout_alignStart="@+id/btn_browse" />
+
+    <ZoomControls
+        android:id="@+id/zoomControls1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:showDividers="none"
+        android:textAlignment="center"
+        android:theme="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_above="@+id/btn_textspeeching" />
+
+</RelativeLayout>
